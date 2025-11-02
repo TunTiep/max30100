@@ -128,4 +128,8 @@ void MAX30100_Stop(void);
 void MAX30100_Pause(void);
 void MAX30100_Resume(void);
 
+float MAX30100_HeartRate_Calculate(void);
+float MAX30100_SpO2_Calculate(void);
+
+
 #endif
